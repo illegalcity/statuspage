@@ -1,10 +1,7 @@
 # .github/workflows/example-1.yml
 
 name: IllegalCity Status Workflow
-on:
-  # Triggers the workflow every 5 minutes
-  schedule:
-    - cron: "*/5 * * * *"
+on: [workflow_dispatch]
 jobs:
   example:
     name: IllegalCity Status
