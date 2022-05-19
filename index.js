@@ -122,12 +122,12 @@ function getStatusDescriptiveText(color) {
   return color == "nodata"
     ? "Kullanılabilir Veri Yok: Durum denetimi yapılmadı."
     : color == "success"
-    ? "No downtime recorded on this day."
+    ? "Bu gün hiçbir kesinti kaydedilmedi."
     : color == "failure"
-    ? "Major outages recorded on this day."
+    ? "Bu gün büyük kesintiler yaşandı."
     : color == "partial"
-    ? "Partial outages recorded on this day."
-    : "Unknown";
+    ? "Bu gün kısmi kesintiler yaşandı"
+    : "Bilinmiyor";
 }
 
 function getTooltip(key, date, quartile, color) {
