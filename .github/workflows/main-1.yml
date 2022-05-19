@@ -1,0 +1,13 @@
+# .github/workflows/example-1.yml
+
+name: IllegalCity Status Workflow
+on: [workflow_dispatch]
+jobs:
+  example:
+    name: IllegalCity Status
+    runs-on: ubuntu-latest
+    steps:
+      - name: Status Checker
+        uses: actions/checkout@v2
+      - name: Run Shell Script
+        run: bash ./health-check.sh
