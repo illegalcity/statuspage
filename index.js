@@ -110,9 +110,9 @@ function getStatusText(color) {
   return color == "nodata"
     ? "Kullanılabilir Veri Yok"
     : color == "success"
-    ? "Fully Operational"
+    ? "Tamamen Operasyonel"
     : color == "failure"
-    ? "Major Outage"
+    ? "Büyük Kesinti"
     : color == "partial"
     ? "Partial Outage"
     : "Unknown";
