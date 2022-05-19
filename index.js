@@ -108,7 +108,7 @@ function templatizeString(text, parameters) {
 
 function getStatusText(color) {
   return color == "nodata"
-    ? "No Data Available"
+    ? "Kullanılabilir Veri Yok"
     : color == "success"
     ? "Fully Operational"
     : color == "failure"
@@ -120,7 +120,7 @@ function getStatusText(color) {
 
 function getStatusDescriptiveText(color) {
   return color == "nodata"
-    ? "No Data Available: Health check was not performed."
+    ? "Kullanılabilir Veri Yok: Durum denetimi yapılmadı."
     : color == "success"
     ? "No downtime recorded on this day."
     : color == "failure"
