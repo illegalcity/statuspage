@@ -114,8 +114,8 @@ function getStatusText(color) {
     : color == "failure"
     ? "Büyük Kesinti"
     : color == "partial"
-    ? "Partial Outage"
-    : "Unknown";
+    ? "Kısmi Kesinti"
+    : "Bilinmiyor";
 }
 
 function getStatusDescriptiveText(color) {
